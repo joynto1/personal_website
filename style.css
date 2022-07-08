@@ -1,0 +1,157 @@
+body {
+    background-image: url(background1.png);
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(238, 18, 110);
+}
+
+nav .link_bar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+
+
+}
+
+nav .link_bar a:hover {
+
+    color: orange;
+    transition: .5s;
+}
+
+nav .link_bar {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50%;
+
+    text-align: center;
+
+}
+
+nav .logo h1 {
+    color: #fff;
+    margin-left: 40px;
+
+}
+
+nav .logo h1:hover {
+    color: aqua;
+    transition: .5s;
+}
+
+
+
+
+
+section.one .first_part {
+    display: flex;
+    position: relative;
+
+}
+
+.name {
+    width: 70%;
+}
+
+.name h1,
+h3,
+h2 {
+    margin-left: 25%;
+
+}
+
+.name h2 {
+    margin-top: -5%;
+    font-size: 25px;
+    margin-bottom: 25%;
+    font-weight: 700;
+    color: rgba(72, 237, 243, 0.904)
+}
+
+.name h2:hover {
+    color: rgb(255, 0, 170);
+    transition: .3s ease-in;
+}
+
+.name h1 {
+    font-size: 50px;
+    text-align: left;
+    color: orange;
+    transition: 0.3s ease-in;
+}
+
+.name h1:hover {
+    color: rgba(9, 250, 230, 0.856);
+
+}
+
+.name h3 {
+
+    margin-left: 28%;
+    font-size: 25px;
+    margin-top: 15%;
+    color: rgb(236, 33, 118);
+    transition: 0.3s ease-in;
+}
+
+.name h3:hover {
+    color: #fff;
+}
+
+
+.name img {
+
+    position: absolute;
+
+
+    margin-left: 120px;
+    height: 100%;
+
+}
+
+section .name a {
+    text-decoration: none;
+    margin-left: 14%;
+    background-color: aqua;
+    border: none;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(18, 18, 19);
+    box-shadow: 0px 0px 10px 10px gray;
+    position: absolute;
+    margin-top: -8%;
+
+}
+
+section .name a i {
+    margin-left: 10px;
+
+}
+
+section .name a:hover {
+    background-color: rgba(81, 180, 81, 0.726);
+    color: #fff;
+    transition: .5s;
+
+}
+
+section .first_part {
+    box-shadow: 0px 0px 15px 15px rgba(77, 179, 157, 0.637);
+    position: relative;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-right: 200px;
+
+
+}
