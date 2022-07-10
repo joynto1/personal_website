@@ -1,15 +1,17 @@
 body {
     background-image: linear-gradient(rgb(190, 129, 129), rgb(13, 231, 213));
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-
 }
 
+nav #profile {
+    background-color: gray;
+}
 
 nav a {
     margin-right: 30px;
@@ -18,7 +20,6 @@ nav a {
     transition: .5s;
     padding: 10px 10px;
     border-radius: 5px;
-
 }
 
 nav a:hover {
@@ -29,7 +30,12 @@ nav a:hover {
 nav img {
     width: 60px;
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 30px;
+}
+
+nav img.logo:hover {
+    transform: scale(1.5);
+    transition: .5s;
 }
 
 section {
@@ -61,7 +67,7 @@ section .profile1 h1:hover {
 }
 
 section .profile1 h2 {
-    color: rgba(122, 44, 153, 0.753);
+    color: rgb(62, 32, 80);
     font-weight: 700;
 }
 
@@ -96,18 +102,152 @@ section .profile1 a:hover {
     color: rgb(255, 0, 221);
 }
 
-
 section .profile2 img {
     margin-left: -10%;
-
-
 }
 
 section .profile2 img:hover {
     transform: scale(1.2);
     transition: .5s ease;
+}
+
+#second_tittle {
+    text-align: center;
+    font-weight: 700;
+    color: rgba(164, 39, 189, 0.863);
+    font-size: 40px;
+    margin-top: 5%;
+    padding: 20px;
+}
+
+#second_tittle:hover {
+    color: rgb(255, 255, 255);
+    transform: scale(1.5);
+    transition: .5s;
+}
+
+.second {
+    display: flex;
+    background-image: rgba(73, 204, 128, 0.884);
+    overflow: hidden;
+
+}
+
+.second .part2 {
+    width: 40%;
+    box-shadow: 0px 0px 15px 15px gray;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 7%;
+    margin-bottom: 50px;
+}
+
+.mission {
+    background-image: linear-gradient(rgb(109, 79, 192), rgba(255, 0, 0, 0.589));
+}
+
+.mission:hover {
+    background-image: linear-gradient(orange, aqua);
+}
+
+.goals {
+    background-image: linear-gradient(rgb(109, 23, 90), rgba(182, 158, 79, 0.795));
+}
+
+.goals:hover {
+    background-image: linear-gradient(orange, aqua);
+}
+
+.second .part2 img {
+    width: 50%;
+    margin-left: 30%;
 
 
+}
+
+.second .part2 img:hover {
+    transform: scale(1.5);
+    transition: .5s;
+
+}
+
+.second .part2 h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: 700;
+    color: rgba(10, 247, 247, 0.781);
+
+}
+
+.second .part2 h2:hover {
+    color: #fff;
+    transition: .5s;
+    transform: scale(1.2);
+}
+
+.second .part2 p {
+    margin-left: 10px;
+    font-size: 19px;
+    color: black;
+    margin-left: 5.5%;
+    margin-right: 5%;
+
+}
+
+.second .part2 p:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    color: #fff;
+}
+
+.third {
+    display: flex;
+    background-image: linear-gradient(rgba(138, 139, 133, 0.719), rgba(19, 151, 85, 0.644));
+    box-shadow: 0px 0px 15px 15px rgba(252, 252, 252, 0.61);
+    border-radius: 10px;
+    margin-left: 7%;
+    margin-right: 6%;
+    margin-top: 5%;
+}
+
+.third:hover {
+    background-image: linear-gradient(rgba(255, 166, 0, 0.664), rgba(20, 161, 161, 0.555));
+}
+
+.third .sites {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+
+.third .sites h2 {
+    color: rgb(240, 229, 229);
+}
+
+.third .sites h2:hover {
+    color: #fff;
+    transition: .5s;
+}
+
+.third .sites a {
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: 700;
+    color: rgba(255, 4, 192, 0.842);
+}
+
+.third .sites a:hover {
+    transform: scale(1.2);
+    transition: .5s;
+    color: #fff;
+}
+
+.third .sites a i {
+    margin-right: 20px;
 }
 
 footer {
@@ -118,122 +258,4 @@ footer {
 
 footer {
     margin-top: 100px;
-}
-
-@media (max-width:700px) {
-    body {
-        background-image: linear-gradient(rgb(190, 129, 129), rgb(13, 231, 213));
-    }
-
-    nav {
-        display: flex;
-        justify-content: space-between;
-
-    }
-
-
-    nav a {
-        margin-right: 2px;
-        text-decoration: none;
-        color: aqua;
-        transition: .5s;
-        padding: 5px 2px;
-        border-radius: 5px;
-        font-size: 18px;
-
-
-    }
-
-    nav a:hover {
-        background-color: aqua;
-        color: orange;
-    }
-
-    nav img {
-        width: 40px;
-        margin-left: 5px;
-        margin-top: 2px;
-    }
-
-    section {
-        display: flex;
-        justify-content: space-between;
-        box-shadow: 0px 0px 10px 10px rgb(81, 210, 219);
-        margin-left: 5%;
-        margin-right: 5%;
-        overflow: hidden;
-        margin-top: 15%;
-    }
-
-    section .profile1 {
-        margin-left: 5%;
-        margin-top: 10%;
-        font-size: 20px;
-    }
-
-    section .profile1 h1 {
-        color: orange;
-        font-size: 40px;
-        font-weight: 700;
-    }
-
-    section .profile1 h1:hover {
-        transform: scale(1.2);
-        transition: .5s ease;
-        color: aqua;
-
-    }
-
-    section .profile1 h2 {
-        color: rgb(238, 31, 193);
-        font-weight: 700;
-        font-size: 28px;
-        padding-bottom: 25px;
-    }
-
-    section .profile1 h2:hover {
-        transform: scale(1.2);
-        transition: .5s ease;
-        color: ivory;
-    }
-
-    section .profile1 h3 {
-        color: rgba(255, 0, 140, 0.925);
-        font-weight: 900;
-
-    }
-
-    section .profile1 h3:hover {
-        transform: scale(1.2);
-        transition: .5s ease;
-    }
-
-    section .profile1 a {
-        text-decoration: none;
-        padding: 10px 20px;
-        background-color: aqua;
-        border: none;
-        border-radius: 5px;
-        color: rgb(26, 23, 238);
-    }
-
-    section .profile1 a:hover {
-        transition: .5s ease;
-        background-color: rgb(237, 240, 234);
-        color: rgb(255, 0, 221);
-    }
-
-
-    section .profile2 img {
-        margin-left: -46%;
-        margin-top: 45%;
-
-    }
-
-    section .profile2 img:hover {
-        transform: scale(1.2);
-        transition: .5s ease;
-
-
-    }
 }
