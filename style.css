@@ -345,15 +345,15 @@ footer {
 
     .second {
         display: block;
+        margin-right: 2%;
+        margin-top: 10%;
     }
 
     .second .part2 {
         margin-left: 9px;
         width: 100%;
         box-shadow: none;
-        margin-right: 9px;
-        margin-top: 5%;
-        border-radius: 2px;
+        border-radius: 10px;
     }
 
     .second .part2 h2 {
@@ -386,5 +386,103 @@ footer {
     footer {
         font-size: 8px;
     }
+}
 
+@media (max-width:912px) {
+
+    section {
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 0px 10px 10px rgb(81, 210, 219);
+        margin-left: 5%;
+        margin-right: 5%;
+        overflow: hidden;
+    }
+
+    section .profile1 {
+        margin-left: 15%;
+        margin-top: 10%;
+        font-size: 20px;
+    }
+
+    section .profile1 h1 {
+        color: orange;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    section .profile1 h1:hover {
+        transform: scale(1.2);
+        transition: .5s ease;
+        color: aqua;
+
+    }
+
+    section .profile1 h2 {
+        color: rgb(62, 32, 80);
+        font-weight: 700;
+        font-size: 25px;
+
+    }
+
+    section .profile1 h2:hover {
+        transform: scale(1.2);
+        transition: .5s ease;
+        color: ivory;
+    }
+
+    section .profile1 h3 {
+        color: rgba(255, 0, 140, 0.925);
+        font-weight: 900;
+        margin-top: -10%;
+        margin-top: 10%;
+    }
+
+    section .profile1 h3:hover {
+        transform: scale(1.2);
+        transition: .5s ease;
+    }
+
+    section .profile1 a {
+        text-decoration: none;
+        padding: 10px 20px;
+        background-color: aqua;
+        border: none;
+        border-radius: 5px;
+        color: rgb(26, 23, 238);
+
+    }
+
+    section .profile1 a:hover {
+        transition: .5s ease;
+        background-color: rgb(237, 240, 234);
+        color: rgb(255, 0, 221);
+    }
+
+    section .profile2 img {
+        margin-left: 7%;
+        margin-top: 10px;
+    }
+
+    section .profile2 img:hover {
+        transform: scale(1.2);
+        transition: .5s ease;
+    }
+
+    #second_tittle {
+        text-align: center;
+        font-weight: 700;
+        color: rgba(164, 39, 189, 0.863);
+        font-size: 40px;
+        margin-top: 5%;
+        padding: 20px;
+    }
+
+    .third {
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 10%;
+
+
+    }
 }
