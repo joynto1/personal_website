@@ -260,287 +260,135 @@ footer {
     margin-top: 100px;
 }
 
-@media screen and (max-width :700px) {
-
-
-    nav span img {
-        position: absolute;
-        margin-left: -10px;
-        margin-top: -2%;
-        width: 45px;
+@media screen and (max-width:311px) {
+    body {
+        margin: 0%;
+        padding: 0%;
     }
 
-    nav span {
+    nav {
         display: flex;
+        justify-content: space-between;
+    }
 
+    nav span img {
+        margin-left: -10px;
+        position: absolute;
     }
 
     nav span a {
-        position: relative;
-        font-size: 16px;
-        padding: 2px;
-        margin-left: 20px;
-        margin-right: -10px;
+        margin-right: 2px;
+        margin-left: 2px;
 
     }
 
     section {
-        display: flex;
-        box-shadow: 0px 0px 10px 10px aqua;
-        margin-left: 1px;
-        margin-right: 1px;
-        margin-top: 20%;
+        margin-left: 8px;
+        margin-top: 30%;
+        margin-right: 8px;
     }
 
     section .profile1 h1,
     h2,
-    h3,
-    a {
-        margin-left: -25px;
+    h3 a {
+        margin-left: -30px;
         position: absolute;
-
     }
 
     section .profile1 h1 {
-        font-size: 18px;
-        margin-top: 9%;
+        margin-top: 2%;
+        font-size: 16px;
+    }
+
+    section .profile1 h2 {
+        margin-top: 10%;
+        font-size: 16px;
 
 
     }
 
-    section .profile1 h2 {
-        font-size: 14px;
-        margin-top: 20%;
-
+    section .profile1 h3 {
+        font-size: 15px;
+        margin-top: -10px;
+        margin-left: -25px;
 
     }
 
     section .profile1 a {
-        margin-top: 30%;
-        margin-left: -20px;
-        font-size: 10px;
-        padding: 5px 5px;
-    }
-
-    section .profile1 h3 {
-        margin-top: -2%;
-        font-size: 14px;
+        padding: 2px 2px;
+        margin-top: 20%;
+        position: absolute;
+        margin-left: -25px;
     }
 
     section .profile2 img {
-        position: relative;
-        width: 60%;
-        margin-left: 48%;
-
+        width: 150px;
+        margin-left: 15%;
     }
 
     #second_tittle {
-        font-size: 20px;
-    }
-
-    #second_tittle:hover {
-        transform: scale(1.2);
-        transition: .5s;
+        font-size: 26px;
     }
 
     .second {
-        display: block;
-        margin-right: 2%;
-        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
     }
 
     .second .part2 {
-        margin-left: 9px;
-        width: 100%;
-        box-shadow: none;
-        border-radius: 10px;
+        width: 94%;
+        margin-left: 10px;
+
     }
 
     .second .part2 h2 {
-        font-size: 18px;
-        margin-left: 38%;
-        margin-top: -8px;
-
+        font-size: 30px;
+        margin-left: 31%;
+        margin-top: -5%;
     }
 
     .second .part2 p {
-        font-size: 14px;
-
-    }
-
-    .second .part2 img {
-        width: 50%;
-
-    }
-
-    .second .part2 img:hover {
-        transform: scale(1.2);
-        transition: .5s;
+        font-size: 18px;
 
     }
 
     .third {
-        display: none;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 40px;
+    }
+
+    .third .sites {
+        width: 100%;
+    }
+
+    .third .sites h2 {
+        font-size: 20px;
+        margin-top: -50px;
+        padding-top: 20px;
+        margin-left: -20px;
+    }
+
+    .third .sites a {
+        margin-left: -30px;
+        font-size: 13px;
+        margin-top: 10px;
+        padding: 2px 2px;
+
+    }
+
+    .sites .links a {
+        position: absolute;
+        padding: -12px;
+    }
+
+    .sites .skills a,
+    li {
+        margin-left: -15%;
     }
 
     footer {
-        font-size: 8px;
-    }
-}
-
-@media screen and (max-width:912px) {
-
-    section {
-        display: flex;
-        justify-content: space-between;
-        box-shadow: 0px 0px 10px 10px rgb(81, 210, 219);
-        margin-left: 5%;
-        margin-right: 5%;
-        overflow: hidden;
-    }
-
-    section .profile1 {
-        margin-left: 15%;
-        margin-top: 10%;
-        font-size: 20px;
-    }
-
-    section .profile1 h1 {
-        color: orange;
-        font-size: 40px;
-        font-weight: 700;
-    }
-
-    section .profile1 h1:hover {
-        transform: scale(1.2);
-        transition: .5s ease;
-        color: aqua;
-
-    }
-
-    section .profile1 h2 {
-        color: rgb(62, 32, 80);
-        font-weight: 700;
-        font-size: 25px;
-
-    }
-
-    section .profile1 h2:hover {
-        transform: scale(1.2);
-        transition: .5s ease;
-        color: ivory;
-    }
-
-    section .profile1 h3 {
-        color: rgba(255, 0, 140, 0.925);
-        font-weight: 900;
-        margin-top: -10%;
-        margin-top: 10%;
-    }
-
-    section .profile1 h3:hover {
-        transform: scale(1.2);
-        transition: .5s ease;
-    }
-
-    section .profile1 a {
-        text-decoration: none;
-        padding: 10px 20px;
-        background-color: aqua;
-        border: none;
-        border-radius: 5px;
-        color: rgb(26, 23, 238);
-
-    }
-
-    section .profile1 a:hover {
-        transition: .5s ease;
-        background-color: rgb(237, 240, 234);
-        color: rgb(255, 0, 221);
-    }
-
-    section .profile2 img {
-        margin-left: 7%;
-        margin-top: 10px;
-    }
-
-    section .profile2 img:hover {
-        transform: scale(1.2);
-        transition: .5s ease;
-    }
-
-    #second_tittle {
-        text-align: center;
-        font-weight: 700;
-        color: rgba(164, 39, 189, 0.863);
-        font-size: 40px;
-        margin-top: 5%;
-        padding: 20px;
-    }
-
-    .third {
-        text-align: left;
-        margin-left: 10%;
-        margin-right: 10%;
-
-
-    }
-}
-
-@media screen and(max-width:300px) {
-    section .profile2 img {
-        margin-left: 47%;
-    }
-
-    section .profile1 h3 {
-        margin-top: -5px;
-
-    }
-
-    section .profile1 h1 {
-        font-size: 16px;
-        margin-left: -7%;
-    }
-
-    section .profile1 h2 {
         font-size: 11px;
-        margin-left: -8%;
-    }
-
-    section .profile1 a {
-        padding: 5px 5px;
-    }
-
-    #second_tittle {
-        font-size: 20px;
-        margin-top: 20%;
-    }
-
-
-
-}
-
-@media screen and (max-width:1115px) {
-    section .profile2 img {
-        margin-left: 10%;
-        margin-top: 15px;
-    }
-
-    section .profile1 a {}
-
-    section .profile1 h1 {
-        font-size: 34px;
-    }
-
-    section .profile1 h2 {
-        font-size: 26px;
-        margin-bottom: 30%;
-
-    }
-
-    section .profile1 h1,
-    h2,
-    h3 {
-        margin-left: -20%;
+        font-weight: bold;
     }
 }
