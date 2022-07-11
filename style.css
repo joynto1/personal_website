@@ -519,3 +519,28 @@ footer {
 
 
 }
+
+@media (max-width:1115px) {
+    section .profile2 img {
+        margin-left: 10%;
+        margin-top: 15px;
+    }
+
+    section .profile1 a {}
+
+    section .profile1 h1 {
+        font-size: 34px;
+    }
+
+    section .profile1 h2 {
+        font-size: 26px;
+        margin-bottom: 30%;
+
+    }
+
+    section .profile1 h1,
+    h2,
+    h3 {
+        margin-left: -20%;
+    }
+}
