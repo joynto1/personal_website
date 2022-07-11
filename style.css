@@ -260,7 +260,7 @@ footer {
     margin-top: 100px;
 }
 
-@media (max-width :700px) {
+@media screen and (max-width :700px) {
 
 
     nav span img {
@@ -388,7 +388,7 @@ footer {
     }
 }
 
-@media (max-width:912px) {
+@media screen and (max-width:912px) {
 
     section {
         display: flex;
@@ -487,7 +487,7 @@ footer {
     }
 }
 
-@media (max-width:300px) {
+@media screen and(max-width:300px) {
     section .profile2 img {
         margin-left: 47%;
     }
@@ -520,7 +520,7 @@ footer {
 
 }
 
-@media (max-width:1115px) {
+@media screen and (max-width:1115px) {
     section .profile2 img {
         margin-left: 10%;
         margin-top: 15px;
